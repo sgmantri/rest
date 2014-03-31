@@ -1,0 +1,51 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Rest">
+    <output-path>$PROJECT_DIR$/out/artifacts/Rest</output-path>
+    <root id="archive" name="Rest.war">
+      <element id="javaee-facet-resources" facet="Rest/web/Web Gradle" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Rest" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: javax.ws.rs-api-2.0" />
+          <element id="library" level="project" name="Gradle: jackson-jaxrs-json-provider-2.2.3" />
+          <element id="library" level="project" name="Gradle: jersey-test-framework-provider-grizzly2-2.6" />
+          <element id="library" level="project" name="Gradle: jersey-container-servlet-2.6" />
+          <element id="library" level="project" name="Gradle: servlet-api-2.5" />
+          <element id="library" level="project" name="Gradle: jackson-core-2.2.3" />
+          <element id="library" level="project" name="Gradle: jackson-annotations-2.2.3" />
+          <element id="library" level="project" name="Gradle: jackson-databind-2.2.3" />
+          <element id="library" level="project" name="Gradle: jackson-jaxrs-base-2.2.3" />
+          <element id="library" level="project" name="Gradle: jackson-module-jaxb-annotations-2.2.3" />
+          <element id="library" level="project" name="Gradle: hamcrest-core-1.3" />
+          <element id="library" level="project" name="Gradle: junit-4.11" />
+          <element id="library" level="project" name="Gradle: asm-all-repackaged-2.2.0" />
+          <element id="library" level="project" name="Gradle: javax.inject-2.2.0" />
+          <element id="library" level="project" name="Gradle: javax.annotation-api-1.2" />
+          <element id="library" level="project" name="Gradle: jersey-guava-2.6" />
+          <element id="library" level="project" name="Gradle: javax.inject-1" />
+          <element id="library" level="project" name="Gradle: hk2-utils-2.2.0" />
+          <element id="library" level="project" name="Gradle: aopalliance-repackaged-2.2.0" />
+          <element id="library" level="project" name="Gradle: hk2-api-2.2.0" />
+          <element id="library" level="project" name="Gradle: javassist-3.18.1-GA" />
+          <element id="library" level="project" name="Gradle: hk2-locator-2.2.0" />
+          <element id="library" level="project" name="Gradle: osgi-resource-locator-1.0.1" />
+          <element id="library" level="project" name="Gradle: jersey-common-2.6" />
+          <element id="library" level="project" name="Gradle: jersey-client-2.6" />
+          <element id="library" level="project" name="Gradle: validation-api-1.1.0.Final" />
+          <element id="library" level="project" name="Gradle: jersey-server-2.6" />
+          <element id="library" level="project" name="Gradle: jersey-test-framework-core-2.6" />
+          <element id="library" level="project" name="Gradle: grizzly-framework-2.3.8" />
+          <element id="library" level="project" name="Gradle: grizzly-http-2.3.8" />
+          <element id="library" level="project" name="Gradle: grizzly-http-server-2.3.8" />
+          <element id="library" level="project" name="Gradle: jersey-container-grizzly2-http-2.6" />
+          <element id="library" level="project" name="Gradle: jersey-container-servlet-core-2.6" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/Rest/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
